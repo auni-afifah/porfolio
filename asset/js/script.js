@@ -24,7 +24,7 @@ function headerShadow() {
 }
 window.onscroll = function() {headerShadow()};
 // Typed text
-var typed = new Typed('#element', {
+var typed = new Typed(".typedText",{
     strings: ['Desainer', 'Editor', 'Content Creator'],
     loop : true,
     typeSpeed : 100, 
